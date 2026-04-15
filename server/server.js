@@ -24,6 +24,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "http://localhost:5174",
       "https://college-management-system-frontend-a59y.onrender.com",
     ],
     credentials: true,
